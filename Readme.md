@@ -50,6 +50,9 @@ git clone https://github.com/ba0gu0/wps_rce
 cd wps_rce
 pip install -r requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+### 操作演示
+
+[8月11日.webm](https://github.com/ba0gu0/wps-rce/assets/19379443/489c2c86-98bb-4385-b53c-1542afbf1d24)
 
 ### 服务端
 

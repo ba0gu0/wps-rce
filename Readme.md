@@ -52,7 +52,9 @@ pip install -r requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ### 操作演示
 
-[8月11日.webm](https://github.com/ba0gu0/wps-rce/assets/19379443/489c2c86-98bb-4385-b53c-1542afbf1d24)
+
+https://github.com/ba0gu0/wps-rce/assets/19379443/b1d20c4b-a72f-4a95-9c80-10fc6ba4beff
+
 
 ### 服务端
 
